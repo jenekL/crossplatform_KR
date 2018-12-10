@@ -23,9 +23,9 @@ public class Sender{
             System.err.println(e);
         }
     }
-    public static void main(String[] args){
-        Sender sndr = new Sender("localhost", 1050);
-        for (int k = 0; k < 10; k++)
-            sndr.sendMessage("" + k);
-    }
+//    public static void main(String[] args){
+//        Sender sndr = new Sender("localhost", 1050);
+//        for (int k = 0; k < 10; k++)
+//            sndr.sendMessage("" + k);
+//    }
 }

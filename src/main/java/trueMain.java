@@ -1,5 +1,7 @@
 public class trueMain {
     public static void main(String[] args){
-        new ThreadRead("E:\\лаба\\жава\\Laba2\\Furniture0.csv");
+        for(int i = 0; i < 3; i++) {
+            new ThreadRead("C:\\ya\\flashtrash\\лаба\\жава\\Laba2\\Furniture" + i + ".csv");
+        }
     }
 }
